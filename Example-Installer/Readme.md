@@ -20,4 +20,4 @@ REM ----------------------Section2 Email options----------------------
 
 3. Create folder and some files to c:\temp\logmailer-example\*
 4. Double click the AE-LogMailer icon on the desktop
-
+5. Check your inbox for the result, set it ping google.com 

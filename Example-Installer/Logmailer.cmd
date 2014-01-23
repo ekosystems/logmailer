@@ -71,7 +71,7 @@ REM %CopyLogsToFolder% and zip the whole folder and send it.
 
 REM Simple log example below I want to rename the file with computername and date+time on the name
 
-SET LogPath=C:\TEMP\somelogfile.log
+SET LogPath=c:\temp\logmailer-example\*
 Copy %LogPath% %CopyLogsToFolder%log-%computername%_%dt%.log
 
 REM Another logs to copy, when copying a folder add * after back slash
