@@ -48,6 +48,8 @@ Source: "C:\Antti\Git\logmailer\Example-Installer\LogMailer.cmd"; DestDir: "{app
 Source: "C:\Antti\Git\logmailer\Example-Installer\logmailer.ico"; DestDir: "{app}"
 Source: "C:\Antti\Git\logmailer\Example-Installer\7za.exe"; DestDir: "{app}"
 Source: "C:\Antti\Git\logmailer\Example-Installer\RunFirst.cmd"; DestDir: "{app}"
+Source: "C:\Antti\Git\logmailer\Example-Installer\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Antti\Git\logmailer\Example-Installer\gpl.txt"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{commondesktop}\AE LogMailer"; Filename: "{app}\LogMailer.cmd"; WorkingDir: "{app}"; IconFilename: "{app}\logmailer.ico"; IconIndex: 0
