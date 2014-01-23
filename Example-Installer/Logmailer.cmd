@@ -84,12 +84,12 @@ REM ----------------------Section1 log file paths and copy-------------
 REM ----------------------Section2 Email options----------------------
 REM Emails settings, pretty self explanatory
 REM Use comma "," separated values on the the receiver names to define multiple receivers
-SET EmailServer=smtp.yourmailserver.fi
+SET EmailServer=smtp.yourmailserver.int
 SET Subject="Logs from host %computername%"
-SET To=receiveraddress@domain.fi
+SET To=receiveraddress@domain.int
 SET Cc=
 SET Bcc=
-SET From=ae-logmailer@domain.com
+SET From=ae-logmailer@domain.int
 SET MessageBody="Logs were sent on host's local time:|%DateEmail% %TimeEmail%||IP address:|%IPaddress%||Hostname:|%computername%||Username:|%username%||Domain:|%userdomain%||Ping result:|%PingTime%||Attached are the log files from:|%LogPath%|%LogPath2%|||--|Sent with AE LogMailer"
 REM Pipe will be replaced with line break on the email
 REM ----------------------Section2 Email options----------------------
