@@ -20,8 +20,8 @@ REM           * Installs to c:\Program files\Ekosystems\logmailer *
 REM           * Please read the comments carefully before editing *
 REM           * Unless you know what you are doing only edit the  *
 REM           * parameter area. Happy mailing, hopefully it helps *
-REM           *****************************************************
 
+REM           *****************************************************
 REM Defining some general variables
 REM define %dt% for file names to be in form of dd-mm-yyyy_hh-mm
 for /f "delims=" %%a in ('wmic OS Get localdatetime  ^| find "."') do set dt=%%a
