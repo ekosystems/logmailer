@@ -36,7 +36,8 @@ REM create variable TimeEmail containing time in hh:mm
 for /f "delims=" %%a in ('wmic OS Get localdatetime  ^| find "."') do set TimeEmail=%%a
 set TimeEmail=%TimeEmail:~8,2%:%TimeEmail:~10,2%
 
-REM To find OC log file folder name is based on date, create variable day containing day number e.g. 27 
+REM To find log files in a folder which name is based on date, create variable day containing day number e.g. 27 
+REM So with this one can find logs files on the 27th in e.g. c:\temp\logs\27\
 for /f "delims=" %%a in ('wmic OS Get localdatetime  ^| find "."') do set day=%%a
 set day=%day:~6,2%
 
