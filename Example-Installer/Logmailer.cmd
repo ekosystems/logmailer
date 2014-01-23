@@ -130,12 +130,12 @@ echo.
 echo.
 echo Logs are picked up from: 
 echo %LogPath%
-echo %LogPath2%
+echo. REM %LogPath2%
 echo.
-echo to %AttachmentPath%
-echo.
-echo Logs will be sent to:
-echo %To%
+echo They copied and zipped to
+echo %AttachmentPath%
+echo Logs will be sent to: %To%
+echo. 
 echo.
 echo.
 echo -------------------Done Picking up logs---------------------
