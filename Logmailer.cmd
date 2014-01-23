@@ -13,7 +13,7 @@ REM           * * Simple "AE LogMailer" script :) by A. Ekonen*** *
 REM           * *Free to use and distribute, blat according to ** *
 REM           * ********http://www.blat.net/ and 7Zip************ *
 REM           * ********* according to http://7zip.org ********** *
-REM           * Installs to c:\Program files\Ekosystems\logmailer *
+REM           * Install to https://github.com/ekosystems/logmailer*
 REM           * Please read the comments carefully before editing *
 REM           * Unless you know what you are doing only edit the  *
 REM           * parameter area. Happy mailing, hopefully it helps *
