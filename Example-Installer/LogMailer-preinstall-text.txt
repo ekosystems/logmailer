@@ -1,0 +1,10 @@
+AE LogMailer is a free simple script that will zip and email files.
+User only needs to click the AE LogMailer shorcut on the desktop
+
+DURING THE INSTALLATION NOTEPAD WILL OPEN THE SCRIPT FROM PROGRAM DIRECTORY
+JUST CLOSE IT IF YOU ARE REGULAR USER AND THEN SETUP WILL FINISH.
+
+Administrators can edit the script during installation or by navigating to the program directory
+It should be pretty well commented, so be sure to read comments on how to change behaviour.
+
+C:\Program files\Ekosystems\Logmailer\LogMailer.cmd
