@@ -3,6 +3,9 @@ title AE LogMailer
 color 0A
 Mode con: cols=80 lines=50
 
+REM Working example emailing c:\temp\logmailer-example\*
+REM So you need to create that folder and add some files there.
+
 REM -------------CLOSE THIS AND THE INSTALLATION WILL FINNISH-----------------------------
 REM This opens up during installation so you can configure stuff down at the parameter area
 REM              ADMINS AT LEAST CHANGE THE EMAIL SETTINGS!!!
@@ -56,7 +59,7 @@ REM      ********************!!!!!!!!!!!!!!!!****************************
 REM      
 
 REM Ping time to a chosen host will be written to PingTime, comment out and you wont send it
-SET PingHost=ENTER IP ADDRESS OR HOSTNAME
+SET PingHost=www.google.com
 
 for /f "delims=" %%a in ('ping -4 %PingHost% -n 1 -w 3000 ^| findstr "Reply"') do (set PingTime=%%a)
 ping -4 %PingHost% -n 1 -w 3000 >nul 
