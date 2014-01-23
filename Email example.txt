@@ -1,0 +1,28 @@
+Subject: Logs from host WSnnyyzz
+---
+
+Logs were sent on host's local time:
+02.12.2013 14:33
+
+IP address:
+1.1.1.2
+
+Hostname:
+WSnnyyzz
+
+Username:
+user 
+
+Domain:
+DOMAIN
+
+Ping result:
+Reply from 1.1.1.1: bytes=32 time=18ms TTL=55 
+
+
+
+Attached are the log files from:
+C:\Program Files\Software\logfile.log 
+
+--
+Sent with AE LogMailer
