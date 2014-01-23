@@ -18,6 +18,9 @@ SET MessageBody="Logs were sent on host's local time:|%DateEmail% %TimeEmail%||I
 REM Pipe will be replaced with line break on the email
 REM ----------------------Section2 Email options----------------------
 
-3. Create folder and some files to c:\temp\logmailer-example\*
-4. Double click the AE-LogMailer icon on the desktop
+3. Installer creates folder and file c:\temp\logmailer-example\logmailer-example.log
+4. Double click the AE-LogMailer icon on the desktop and you'll get this file
 5. Check your inbox for the result, set it ping google.com 
+
+
+
